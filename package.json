@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "frontend (React) and Backend connection",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arabog/frontEndBackEndConnection.git"
+  },
+  "author": "iCode-Rx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arabog/frontEndBackEndConnection/issues"
+  },
+  "homepage": "https://github.com/arabog/frontEndBackEndConnection#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
